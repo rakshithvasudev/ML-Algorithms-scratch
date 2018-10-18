@@ -1,5 +1,5 @@
 # Ridge Regression
-Building a Ridge Regressor from scratch.
+Building a Ridge Regressor from scratch. This uses L2 regularization.
 
 Ridge: It includes all (or none) of the features in the model. Thus, the major advantage of ridge regression is coefficient shrinkage and reducing model complexity.
 
