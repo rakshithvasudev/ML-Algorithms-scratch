@@ -11,7 +11,7 @@ Ridge: It includes all (or none) of the features in the model. Thus, the major a
 
 
 ### Sample output
-<img src="https://github.com/rakshithvasudev/ML-Algorithms-scratch/blob/master/Ridge%20Regression/images/output_demo.png"  width= "1200" height ="290"/>
+<img src="https://github.com/rakshithvasudev/ML-Algorithms-scratch/blob/master/Ridge%20Regression/images/output_demo.png"  width= "1200" height ="350"/>
 
 
 
