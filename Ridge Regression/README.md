@@ -6,6 +6,9 @@ Ridge: It includes all (or none) of the features in the model. Thus, the major a
 ### Objective function
 <img src="https://github.com/rakshithvasudev/ML-Algorithms-scratch/blob/master/Ridge%20Regression/images/equation.png"  width= "800" height="188"/>
 
+### Fitting & Predicting
+<img src="https://github.com/rakshithvasudev/ML-Algorithms-scratch/blob/master/Ridge%20Regression/images/matrix.png"  width= "800" height="188"/>
+
 
 ### Sample output
 <img src="https://github.com/rakshithvasudev/ML-Algorithms-scratch/blob/master/Ridge%20Regression/images/output_demo.png"  width= "1200" height ="290"/>
