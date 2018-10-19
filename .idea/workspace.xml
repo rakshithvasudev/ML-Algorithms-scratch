@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93b47481-25a7-4fae-b031-745da51789d5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Ridge Regression/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Ridge Regression/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Random Forest/RandomForest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Random Forest/RandomForest.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,12 +30,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="4" />
+          <entry key="Python Console" value="98" />
+          <entry key="py" value="434" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="4" />
+          <entry key="Python" value="532" />
         </counts>
       </usages-collector>
     </session>
@@ -45,10 +46,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Random Forest/RandomForest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="854">
+              <caret line="37" column="20" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
               <folding>
                 <element signature="e#36#59#0" expanded="true" />
+                <marker date="1539844433089" expanded="true" signature="936:1031" ph="..." />
               </folding>
             </state>
           </provider>
@@ -72,9 +74,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="515" />
-    <option name="y" value="218" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2074" />
     <option name="width" value="2986" />
     <option name="height" value="2070" />
   </component>
@@ -134,17 +135,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1719" height="932" extended-state="7" />
-    <editor active="true" />
+    <frame x="922" y="0" width="1327" height="920" extended-state="0" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.249549" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32651454" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" anchor="bottom" id="Python Console" visible="true" weight="0.32911393" />
+      <window_info anchor="bottom" id="Terminal" weight="0.33417723" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -169,10 +169,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Random Forest/RandomForest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="854">
+          <caret line="37" column="20" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
           <folding>
             <element signature="e#36#59#0" expanded="true" />
+            <marker date="1539844433089" expanded="true" signature="936:1031" ph="..." />
           </folding>
         </state>
       </provider>
