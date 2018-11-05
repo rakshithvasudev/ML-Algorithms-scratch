@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93b47481-25a7-4fae-b031-745da51789d5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Random Forest/RandomForest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Random Forest/RandomForest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +14,7 @@
     <session id="673388931">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -75,7 +76,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2074" />
+    <option name="x" value="866" />
     <option name="width" value="2986" />
     <option name="height" value="2070" />
   </component>
@@ -135,7 +136,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="922" y="0" width="1327" height="920" extended-state="0" />
+    <frame x="385" y="0" width="1327" height="920" extended-state="0" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32651454" />
