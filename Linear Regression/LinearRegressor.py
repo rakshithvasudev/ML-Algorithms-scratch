@@ -1,6 +1,6 @@
 import numpy as np
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import mean_squared_error
+from sklearn.metrics import mean_squared_error,r2_score
 
 class LinearRegressor:
     """
@@ -16,6 +16,7 @@ class LinearRegressor:
 
     def fit(self, X, y):
         """
+        http://math.arizona.edu/~hzhang/math574m/Read/RidgeRegressionBiasedEstimationForNonorthogonalProblems.pdf
         X: Numpy training matrix like [[feature1, feature2,...feature p],.....
                                       [feature1, feature2,...feature p]].
         y: vector of outputs like [[target1.....targetp]]
@@ -26,18 +27,26 @@ class LinearRegressor:
         # the matrix form of the ridge objective function is
         # w = [((X.T * X)*(X.T*Y)].
         # where m is the number of features in X.
-        print("Linear regressor())")
+        print("Fitting Linear regressor()")
         self.w = np.linalg.inv(X.T.dot(X)).dot(X.T.dot(y))
+        print("Learned coffient matrix %s" %(self.w))
 
     def predict(self, X):
         """
         predict the output from the learnt weight matrix.
         :param X: observations in the test set like  [[feature1, feature2,...feature p],.....
                                                     [feature1, feature2,...feature p]].
-        :return:  predicted target values.
+        :return:  predicted target values. Represented as beta in the paper.
+
         """
         return X.dot(self.w)
 
+    def sum_of_squaredResiduals(self,y_test,y_pred):
+        """
+        compute the sum of residuals using the paper.
+        """
+        diff = y_test-y_pred
+        return diff.T.dot(diff)
 
 
 if __name__ == '__main__':
@@ -46,6 +55,7 @@ if __name__ == '__main__':
 
     X = content[:, :-1]
     y = content[:, -1]
+    print("Input for Linear regression :{}".format(X))
 
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
 
@@ -53,6 +63,9 @@ if __name__ == '__main__':
 
     r_preds = linear_regressor.predict(X_test)
 
-    print("Input for Ridge regression :{}".format(X_test))
     print("Linear regression Predictions :{}".format(r_preds))
     print("MSE: {}".format(mean_squared_error(y_test, r_preds)))
+    # from paper
+    print("Formula SSR: %s"%(linear_regressor.sum_of_squaredResiduals(y_test, r_preds)))
+    # sum of the residuals from sklearn
+    print("Formula SSR: %s"%(((y_test - r_preds) ** 2).sum() ))
